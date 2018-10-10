@@ -1,0 +1,38 @@
+html body {
+	height:100%;
+	right: 25%;
+}
+
+header {
+ 	overflow: hidden;
+
+}
+
+	@media screen and (min-width: 40em){
+ 	.logo {
+ 	float: left;
+ 	width: 50%;
+ }
+ 	.menu {
+ 	float: right;
+ 	width: 15%;
+ }
+}
+	.col-left {
+	position: absolute;
+	top: 5rem;
+	left: 15%;
+	width: 50%;
+}
+	.col-right {
+	position: absolute;
+	top: 4rem;
+	right: 15%;
+	width: 50%;
+}
+
+footer {
+	position: absolute;
+	bottom: 1rem;
+	left: 0;
+}
